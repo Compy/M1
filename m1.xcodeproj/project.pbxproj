@@ -162,104 +162,77 @@
 		714AB9530AC56C9B00E9F519 /* mac-m1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 714AB9520AC56C9B00E9F519 /* mac-m1.cpp */; };
 		718F88B30AC30A1300A326E4 /* 6821pia.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85C00AC309FD00A326E4 /* 6821pia.c */; };
 		718F88B40AC30A1300A326E4 /* 6821pia.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85C10AC309FD00A326E4 /* 6821pia.h */; };
-		718F88B50AC30A1300A326E4 /* 6821pia.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85C10AC309FD00A326E4 /* 6821pia.h */; };
 		718F88B60AC30A1300A326E4 /* board.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85C30AC309FD00A326E4 /* board.h */; };
 		718F88B70AC30A1300A326E4 /* cdrom.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85C40AC309FD00A326E4 /* cdrom.h */; };
 		718F88B80AC30A1300A326E4 /* chd.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85C50AC309FD00A326E4 /* chd.c */; };
 		718F88B90AC30A1300A326E4 /* chd.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85C60AC309FD00A326E4 /* chd.h */; };
-		718F88BA0AC30A1300A326E4 /* chd.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85C60AC309FD00A326E4 /* chd.h */; };
 		718F88BB0AC30A1300A326E4 /* chdcd.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85C70AC309FD00A326E4 /* chdcd.c */; };
 		718F88BC0AC30A1300A326E4 /* chdcd.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85C80AC309FD00A326E4 /* chdcd.h */; };
-		718F88BD0AC30A1300A326E4 /* chdcd.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85C80AC309FD00A326E4 /* chdcd.h */; };
 		718F88BE0AC30A1300A326E4 /* cpuintrf.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85C90AC309FD00A326E4 /* cpuintrf.c */; };
 		718F88BF0AC30A1300A326E4 /* cpuintrf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85CA0AC309FD00A326E4 /* cpuintrf.h */; };
-		718F88C00AC30A1300A326E4 /* cpuintrf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85CA0AC309FD00A326E4 /* cpuintrf.h */; };
 		718F88C10AC30A1300A326E4 /* driver.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85CC0AC309FD00A326E4 /* driver.h */; };
 		718F88C20AC30A1300A326E4 /* drvlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85CD0AC309FD00A326E4 /* drvlist.h */; };
 		718F88C30AC30A1300A326E4 /* expat.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85CE0AC309FD00A326E4 /* expat.h */; };
 		718F88C40AC30A1300A326E4 /* filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85CF0AC309FD00A326E4 /* filter.h */; };
 		718F88C50AC30A1300A326E4 /* gamelist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 718F85D00AC309FD00A326E4 /* gamelist.cpp */; };
 		718F88C60AC30A1300A326E4 /* gamelist.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85D10AC309FD00A326E4 /* gamelist.h */; };
-		718F88C70AC30A1300A326E4 /* gamelist.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85D10AC309FD00A326E4 /* gamelist.h */; };
 		718F88C80AC30A1300A326E4 /* harddisk.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85D20AC309FD00A326E4 /* harddisk.c */; };
 		718F88C90AC30A1300A326E4 /* harddisk.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85D30AC309FD00A326E4 /* harddisk.h */; };
-		718F88CA0AC30A1300A326E4 /* harddisk.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85D30AC309FD00A326E4 /* harddisk.h */; };
 		718F88CB0AC30A1300A326E4 /* irem_cpu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 718F85D50AC309FD00A326E4 /* irem_cpu.cpp */; };
 		718F88CC0AC30A1300A326E4 /* irem_cpu.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85D60AC309FD00A326E4 /* irem_cpu.h */; };
-		718F88CD0AC30A1300A326E4 /* irem_cpu.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85D60AC309FD00A326E4 /* irem_cpu.h */; };
 		718F88CE0AC30A1300A326E4 /* kabuki.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 718F85D70AC309FD00A326E4 /* kabuki.cpp */; };
 		718F88CF0AC30A1300A326E4 /* m1filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 718F85D90AC309FD00A326E4 /* m1filter.cpp */; };
 		718F88D00AC30A1300A326E4 /* m1filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85DA0AC309FD00A326E4 /* m1filter.h */; };
-		718F88D10AC30A1300A326E4 /* m1filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85DA0AC309FD00A326E4 /* m1filter.h */; };
 		718F88D20AC30A1300A326E4 /* m1memory.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85DB0AC309FD00A326E4 /* m1memory.h */; };
 		718F88D30AC30A1300A326E4 /* m1queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 718F85DC0AC309FD00A326E4 /* m1queue.cpp */; };
 		718F88D40AC30A1300A326E4 /* m1queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85DD0AC309FD00A326E4 /* m1queue.h */; };
-		718F88D50AC30A1300A326E4 /* m1queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85DD0AC309FD00A326E4 /* m1queue.h */; };
 		718F88D60AC30A1300A326E4 /* m1snd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 718F85DE0AC309FD00A326E4 /* m1snd.cpp */; };
 		718F88D70AC30A1300A326E4 /* m1snd.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85DF0AC309FD00A326E4 /* m1snd.h */; };
-		718F88D80AC30A1300A326E4 /* m1snd.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85DF0AC309FD00A326E4 /* m1snd.h */; };
 		718F88D90AC30A1300A326E4 /* m1stdinc.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85E00AC309FD00A326E4 /* m1stdinc.h */; };
 		718F88DA0AC30A1300A326E4 /* m1ui.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85E10AC309FD00A326E4 /* m1ui.h */; };
 		718F88DB0AC30A1300A326E4 /* mamedbg.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85E20AC309FD00A326E4 /* mamedbg.h */; };
 		718F88DC0AC30A1300A326E4 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85E30AC309FD00A326E4 /* md5.c */; };
 		718F88DD0AC30A1300A326E4 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85E40AC309FD00A326E4 /* md5.h */; };
-		718F88DE0AC30A1300A326E4 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85E40AC309FD00A326E4 /* md5.h */; };
 		718F88DF0AC30A1300A326E4 /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85E50AC309FD00A326E4 /* memory.c */; };
 		718F88E00AC30A1300A326E4 /* memory.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85E60AC309FD00A326E4 /* memory.h */; };
-		718F88E10AC30A1300A326E4 /* memory.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85E60AC309FD00A326E4 /* memory.h */; };
 		718F88E20AC30A1300A326E4 /* nec.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85AE0AC309FD00A326E4 /* nec.h */; };
 		718F88E30AC30A1300A326E4 /* osd_cpu.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85E70AC309FD00A326E4 /* osd_cpu.h */; };
 		718F88E40AC30A1300A326E4 /* rom.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85E80AC309FD00A326E4 /* rom.c */; };
 		718F88E50AC30A1300A326E4 /* rom.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85E90AC309FD00A326E4 /* rom.h */; };
-		718F88E60AC30A1300A326E4 /* rom.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85E90AC309FD00A326E4 /* rom.h */; };
 		718F88E70AC30A1300A326E4 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85EA0AC309FD00A326E4 /* sha1.c */; };
 		718F88E80AC30A1300A326E4 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85EB0AC309FD00A326E4 /* sha1.h */; };
-		718F88E90AC30A1300A326E4 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85EB0AC309FD00A326E4 /* sha1.h */; };
 		718F88EA0AC30A1300A326E4 /* sndintrf.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85EC0AC309FD00A326E4 /* sndintrf.c */; };
 		718F88EB0AC30A1300A326E4 /* sndintrf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85ED0AC309FD00A326E4 /* sndintrf.h */; };
-		718F88EC0AC30A1300A326E4 /* sndintrf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85ED0AC309FD00A326E4 /* sndintrf.h */; };
 		718F88ED0AC30A1300A326E4 /* state.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85EE0AC309FD00A326E4 /* state.c */; };
 		718F88EE0AC30A1300A326E4 /* state.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85EF0AC309FD00A326E4 /* state.h */; };
-		718F88EF0AC30A1300A326E4 /* state.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85EF0AC309FD00A326E4 /* state.h */; };
 		718F88F00AC30A1300A326E4 /* taitosnd.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85F00AC309FD00A326E4 /* taitosnd.c */; };
 		718F88F10AC30A1300A326E4 /* taitosnd.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85F10AC309FD00A326E4 /* taitosnd.h */; };
-		718F88F20AC30A1300A326E4 /* taitosnd.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85F10AC309FD00A326E4 /* taitosnd.h */; };
 		718F88F30AC30A1300A326E4 /* timer.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85F20AC309FD00A326E4 /* timer.c */; };
 		718F88F40AC30A1300A326E4 /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85F30AC309FD00A326E4 /* timer.h */; };
-		718F88F50AC30A1300A326E4 /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85F30AC309FD00A326E4 /* timer.h */; };
 		718F88F60AC30A1300A326E4 /* trklist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 718F85F40AC309FD00A326E4 /* trklist.cpp */; };
 		718F88F70AC30A1300A326E4 /* trklist.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85F50AC309FD00A326E4 /* trklist.h */; };
-		718F88F80AC30A1300A326E4 /* trklist.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85F50AC309FD00A326E4 /* trklist.h */; };
 		718F88F90AC30A1300A326E4 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85F70AC309FD00A326E4 /* unzip.h */; };
 		718F88FA0AC30A1300A326E4 /* wavelog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 718F85F80AC309FD00A326E4 /* wavelog.cpp */; };
 		718F88FB0AC30A1300A326E4 /* wavelog.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85F90AC309FD00A326E4 /* wavelog.h */; };
-		718F88FC0AC30A1300A326E4 /* wavelog.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85F90AC309FD00A326E4 /* wavelog.h */; };
 		718F88FD0AC30A1300A326E4 /* xmlout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 718F85FA0AC309FD00A326E4 /* xmlout.cpp */; };
 		718F88FE0AC30A1300A326E4 /* xmlout.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85FB0AC309FD00A326E4 /* xmlout.h */; };
-		718F88FF0AC30A1300A326E4 /* xmlout.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85FB0AC309FD00A326E4 /* xmlout.h */; };
 		718F89800AC30A1300A326E4 /* 2100dasm.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85840AC309FD00A326E4 /* 2100dasm.c */; };
 		718F89810AC30A1300A326E4 /* adsp2100.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85850AC309FD00A326E4 /* adsp2100.c */; };
 		718F89820AC30A1300A326E4 /* adsp2100.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85860AC309FD00A326E4 /* adsp2100.h */; };
-		718F89830AC30A1300A326E4 /* adsp2100.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85860AC309FD00A326E4 /* adsp2100.h */; };
 		718F89840AC30A1300A326E4 /* h6280.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85870AC309FD00A326E4 /* h6280.c */; };
 		718F89850AC30A1300A326E4 /* h6280.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85880AC309FD00A326E4 /* h6280.h */; };
-		718F89860AC30A1300A326E4 /* h6280.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85880AC309FD00A326E4 /* h6280.h */; };
 		718F89870AC30A1300A326E4 /* h6280ops.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85890AC309FD00A326E4 /* h6280ops.h */; };
 		718F89880AC30A1300A326E4 /* h83002.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F858A0AC309FD00A326E4 /* h83002.c */; };
 		718F89890AC30A1300A326E4 /* h83002.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F858B0AC309FD00A326E4 /* h83002.h */; };
-		718F898A0AC30A1300A326E4 /* h83002.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F858B0AC309FD00A326E4 /* h83002.h */; };
 		718F898B0AC30A1300A326E4 /* h8periph.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F858C0AC309FD00A326E4 /* h8periph.c */; };
 		718F898C0AC30A1300A326E4 /* h8priv.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F858D0AC309FD00A326E4 /* h8priv.h */; };
 		718F898D0AC30A1300A326E4 /* hd6309.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F858E0AC309FD00A326E4 /* hd6309.c */; };
 		718F898E0AC30A1300A326E4 /* hd6309.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F858F0AC309FD00A326E4 /* hd6309.h */; };
-		718F898F0AC30A1300A326E4 /* hd6309.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F858F0AC309FD00A326E4 /* hd6309.h */; };
 		718F89900AC30A1300A326E4 /* i8039.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85900AC309FD00A326E4 /* i8039.c */; };
 		718F89910AC30A1300A326E4 /* i8039.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85910AC309FD00A326E4 /* i8039.h */; };
-		718F89920AC30A1300A326E4 /* i8039.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85910AC309FD00A326E4 /* i8039.h */; };
 		718F89930AC30A1300A326E4 /* ill02.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85920AC309FD00A326E4 /* ill02.h */; };
 		718F89940AC30A1300A326E4 /* m37710.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85930AC309FD00A326E4 /* m37710.c */; };
 		718F89950AC30A1300A326E4 /* m37710.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85940AC309FD00A326E4 /* m37710.h */; };
-		718F89960AC30A1300A326E4 /* m37710.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85940AC309FD00A326E4 /* m37710.h */; };
 		718F89970AC30A1300A326E4 /* m37710cm.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85950AC309FD00A326E4 /* m37710cm.h */; };
 		718F89980AC30A1300A326E4 /* m37710o0.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85960AC309FD00A326E4 /* m37710o0.c */; };
 		718F89990AC30A1300A326E4 /* m37710o1.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85970AC309FD00A326E4 /* m37710o1.c */; };
@@ -268,24 +241,18 @@
 		718F899C0AC30A1300A326E4 /* m37710op.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F859A0AC309FD00A326E4 /* m37710op.h */; };
 		718F899D0AC30A1300A326E4 /* m6502.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F859B0AC309FD00A326E4 /* m6502.c */; };
 		718F899E0AC30A1300A326E4 /* m6502.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F859C0AC309FD00A326E4 /* m6502.h */; };
-		718F899F0AC30A1300A326E4 /* m6502.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F859C0AC309FD00A326E4 /* m6502.h */; };
 		718F89A00AC30A1300A326E4 /* m6800.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F859D0AC309FD00A326E4 /* m6800.c */; };
 		718F89A10AC30A1300A326E4 /* m6800.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F859E0AC309FD00A326E4 /* m6800.h */; };
-		718F89A20AC30A1300A326E4 /* m6800.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F859E0AC309FD00A326E4 /* m6800.h */; };
 		718F89A30AC30A1300A326E4 /* m6809.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F859F0AC309FD00A326E4 /* m6809.c */; };
 		718F89A40AC30A1300A326E4 /* m6809.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85A00AC309FD00A326E4 /* m6809.h */; };
-		718F89A50AC30A1300A326E4 /* m6809.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85A00AC309FD00A326E4 /* m6809.h */; };
 		718F89A60AC30A1300A326E4 /* m68k.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85A10AC309FD00A326E4 /* m68k.h */; };
 		718F89A70AC30A1300A326E4 /* m68kconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85A20AC309FD00A326E4 /* m68kconf.h */; };
 		718F89A80AC30A1300A326E4 /* m68kcpu.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85A30AC309FD00A326E4 /* m68kcpu.c */; };
 		718F89A90AC30A1300A326E4 /* m68kcpu.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85A40AC309FD00A326E4 /* m68kcpu.h */; };
-		718F89AA0AC30A1300A326E4 /* m68kcpu.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85A40AC309FD00A326E4 /* m68kcpu.h */; };
 		718F89AB0AC30A1300A326E4 /* m68kmame.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85A50AC309FD00A326E4 /* m68kmame.h */; };
 		718F89AF0AC30A1300A326E4 /* m68kops.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85A90AC309FD00A326E4 /* m68kops.c */; };
 		718F89B00AC30A1300A326E4 /* m68kops.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85AA0AC309FD00A326E4 /* m68kops.h */; };
-		718F89B10AC30A1300A326E4 /* m68kops.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85AA0AC309FD00A326E4 /* m68kops.h */; };
 		718F89B50AC30A1300A326E4 /* nec.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85AD0AC309FD00A326E4 /* nec.c */; };
-		718F89B60AC30A1300A326E4 /* nec.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85AE0AC309FD00A326E4 /* nec.h */; };
 		718F89B70AC30A1300A326E4 /* necea.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85AF0AC309FD00A326E4 /* necea.h */; };
 		718F89B80AC30A1300A326E4 /* nechost.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85B00AC309FD00A326E4 /* nechost.h */; };
 		718F89B90AC30A1300A326E4 /* necinstr.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85B10AC309FD00A326E4 /* necinstr.h */; };
@@ -296,20 +263,15 @@
 		718F89BE0AC30A1300A326E4 /* opsn2a03.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85B60AC309FD00A326E4 /* opsn2a03.h */; };
 		718F89BF0AC30A1300A326E4 /* pic16c5x.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85B70AC309FD00A326E4 /* pic16c5x.c */; };
 		718F89C00AC30A1300A326E4 /* pic16c5x.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85B80AC309FD00A326E4 /* pic16c5x.h */; };
-		718F89C10AC30A1300A326E4 /* pic16c5x.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85B80AC309FD00A326E4 /* pic16c5x.h */; };
 		718F89C20AC30A1300A326E4 /* tms32010.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85B90AC309FD00A326E4 /* tms32010.c */; };
 		718F89C30AC30A1300A326E4 /* tms32010.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85BA0AC309FD00A326E4 /* tms32010.h */; };
-		718F89C40AC30A1300A326E4 /* tms32010.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85BA0AC309FD00A326E4 /* tms32010.h */; };
 		718F89C50AC30A1300A326E4 /* tms32031.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85BB0AC309FD00A326E4 /* tms32031.c */; };
 		718F89C60AC30A1300A326E4 /* tms32031.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85BC0AC309FD00A326E4 /* tms32031.h */; };
-		718F89C70AC30A1300A326E4 /* tms32031.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85BC0AC309FD00A326E4 /* tms32031.h */; };
 		718F89C80AC30A1300A326E4 /* z80.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F85BD0AC309FD00A326E4 /* z80.c */; };
 		718F89C90AC30A1300A326E4 /* z80.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85BE0AC309FD00A326E4 /* z80.h */; };
-		718F89CA0AC30A1300A326E4 /* z80.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85BE0AC309FD00A326E4 /* z80.h */; };
 		718F89CB0AC30A1300A326E4 /* z80daa.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85BF0AC309FD00A326E4 /* z80daa.h */; };
 		718F89CC0AC30A1300A326E4 /* ascii.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85FD0AC309FD00A326E4 /* ascii.h */; };
 		718F89CD0AC30A1300A326E4 /* asciitab.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85FE0AC309FD00A326E4 /* asciitab.h */; };
-		718F89CE0AC30A1300A326E4 /* expat.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85CE0AC309FD00A326E4 /* expat.h */; };
 		718F89CF0AC30A1300A326E4 /* expat_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F85FF0AC309FD00A326E4 /* expat_config.h */; };
 		718F89D00AC30A1300A326E4 /* iasciitab.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86000AC309FD00A326E4 /* iasciitab.h */; };
 		718F89D10AC30A1300A326E4 /* internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86010AC309FD00A326E4 /* internal.h */; };
@@ -320,200 +282,138 @@
 		718F89D60AC30A1300A326E4 /* xmlparse.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86060AC309FD00A326E4 /* xmlparse.c */; };
 		718F89D70AC30A1300A326E4 /* xmlrole.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86070AC309FD00A326E4 /* xmlrole.c */; };
 		718F89D80AC30A1300A326E4 /* xmlrole.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86080AC309FD00A326E4 /* xmlrole.h */; };
-		718F89D90AC30A1300A326E4 /* xmlrole.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86080AC309FD00A326E4 /* xmlrole.h */; };
 		718F89DA0AC30A1300A326E4 /* xmltok.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86090AC309FD00A326E4 /* xmltok.c */; };
 		718F89DB0AC30A1300A326E4 /* xmltok.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F860A0AC309FD00A326E4 /* xmltok.h */; };
-		718F89DC0AC30A1300A326E4 /* xmltok.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F860A0AC309FD00A326E4 /* xmltok.h */; };
 		718F89DD0AC30A1300A326E4 /* amp.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F860D0AC309FD00A326E4 /* amp.h */; };
 		718F89DE0AC30A1300A326E4 /* audio.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F860E0AC309FD00A326E4 /* audio.c */; };
 		718F89DF0AC30A1300A326E4 /* audio.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F860F0AC309FD00A326E4 /* audio.h */; };
-		718F89E00AC30A1300A326E4 /* audio.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F860F0AC309FD00A326E4 /* audio.h */; };
 		718F89E10AC30A1300A326E4 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86100AC309FD00A326E4 /* config.h */; };
 		718F89E20AC30A1300A326E4 /* dump.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86110AC309FD00A326E4 /* dump.c */; };
 		718F89E30AC30A1300A326E4 /* dump.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86120AC309FD00A326E4 /* dump.h */; };
-		718F89E40AC30A1300A326E4 /* dump.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86120AC309FD00A326E4 /* dump.h */; };
 		718F89E50AC30A1300A326E4 /* formats.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86130AC309FD00A326E4 /* formats.h */; };
 		718F89E60AC30A1300A326E4 /* getbits.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86140AC309FD00A326E4 /* getbits.c */; };
 		718F89E70AC30A1300A326E4 /* getbits.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86150AC309FD00A326E4 /* getbits.h */; };
-		718F89E80AC30A1300A326E4 /* getbits.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86150AC309FD00A326E4 /* getbits.h */; };
 		718F89E90AC30A1300A326E4 /* getdata.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86160AC309FD00A326E4 /* getdata.c */; };
 		718F89EA0AC30A1300A326E4 /* getdata.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86170AC309FD00A326E4 /* getdata.h */; };
-		718F89EB0AC30A1300A326E4 /* getdata.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86170AC309FD00A326E4 /* getdata.h */; };
 		718F89EC0AC30A1300A326E4 /* huffman.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86180AC309FD00A326E4 /* huffman.c */; };
 		718F89ED0AC30A1300A326E4 /* huffman.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86190AC309FD00A326E4 /* huffman.h */; };
-		718F89EE0AC30A1300A326E4 /* huffman.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86190AC309FD00A326E4 /* huffman.h */; };
 		718F89EF0AC30A1300A326E4 /* layer2.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F861A0AC309FD00A326E4 /* layer2.c */; };
 		718F89F00AC30A1300A326E4 /* layer2.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F861B0AC309FD00A326E4 /* layer2.h */; };
-		718F89F10AC30A1300A326E4 /* layer2.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F861B0AC309FD00A326E4 /* layer2.h */; };
 		718F89F20AC30A1300A326E4 /* layer3.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F861C0AC309FD00A326E4 /* layer3.c */; };
 		718F89F30AC30A1300A326E4 /* layer3.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F861D0AC309FD00A326E4 /* layer3.h */; };
-		718F89F40AC30A1300A326E4 /* layer3.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F861D0AC309FD00A326E4 /* layer3.h */; };
 		718F89F50AC30A1300A326E4 /* misc2.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F861E0AC309FD00A326E4 /* misc2.c */; };
 		718F89F60AC30A1300A326E4 /* misc2.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F861F0AC309FE00A326E4 /* misc2.h */; };
-		718F89F70AC30A1300A326E4 /* misc2.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F861F0AC309FE00A326E4 /* misc2.h */; };
 		718F89F80AC30A1300A326E4 /* position.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86200AC309FE00A326E4 /* position.c */; };
 		718F89F90AC30A1300A326E4 /* position.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86210AC309FE00A326E4 /* position.h */; };
-		718F89FA0AC30A1300A326E4 /* position.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86210AC309FE00A326E4 /* position.h */; };
 		718F89FB0AC30A1300A326E4 /* proto.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86220AC309FE00A326E4 /* proto.h */; };
 		718F89FC0AC30A1300A326E4 /* rtbuf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86230AC309FE00A326E4 /* rtbuf.h */; };
 		718F89FD0AC30A1300A326E4 /* transform.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86240AC309FE00A326E4 /* transform.c */; };
 		718F89FE0AC30A1300A326E4 /* transform.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86250AC309FE00A326E4 /* transform.h */; };
-		718F89FF0AC30A1300A326E4 /* transform.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86250AC309FE00A326E4 /* transform.h */; };
 		718F8A000AC30A1300A326E4 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86260AC309FE00A326E4 /* util.c */; };
 		718F8A010AC30A1300A326E4 /* 2151intf.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86280AC309FE00A326E4 /* 2151intf.c */; };
 		718F8A020AC30A1300A326E4 /* 2151intf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86290AC309FE00A326E4 /* 2151intf.h */; };
-		718F8A030AC30A1300A326E4 /* 2151intf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86290AC309FE00A326E4 /* 2151intf.h */; };
 		718F8A040AC30A1300A326E4 /* 2203intf.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F862A0AC309FE00A326E4 /* 2203intf.c */; };
 		718F8A050AC30A1300A326E4 /* 2203intf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F862B0AC309FE00A326E4 /* 2203intf.h */; };
-		718F8A060AC30A1300A326E4 /* 2203intf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F862B0AC309FE00A326E4 /* 2203intf.h */; };
 		718F8A070AC30A1300A326E4 /* 2413intf.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F862C0AC309FE00A326E4 /* 2413intf.c */; };
 		718F8A080AC30A1300A326E4 /* 2413intf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F862D0AC309FE00A326E4 /* 2413intf.h */; };
-		718F8A090AC30A1300A326E4 /* 2413intf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F862D0AC309FE00A326E4 /* 2413intf.h */; };
 		718F8A0A0AC30A1300A326E4 /* 2608intf.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F862E0AC309FE00A326E4 /* 2608intf.c */; };
 		718F8A0B0AC30A1300A326E4 /* 2608intf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F862F0AC309FE00A326E4 /* 2608intf.h */; };
-		718F8A0C0AC30A1300A326E4 /* 2608intf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F862F0AC309FE00A326E4 /* 2608intf.h */; };
 		718F8A0D0AC30A1300A326E4 /* 2610intf.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86300AC309FE00A326E4 /* 2610intf.c */; };
 		718F8A0E0AC30A1300A326E4 /* 2610intf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86310AC309FE00A326E4 /* 2610intf.h */; };
-		718F8A0F0AC30A1300A326E4 /* 2610intf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86310AC309FE00A326E4 /* 2610intf.h */; };
 		718F8A100AC30A1300A326E4 /* 2612intf.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86320AC309FE00A326E4 /* 2612intf.c */; };
 		718F8A110AC30A1300A326E4 /* 2612intf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86330AC309FE00A326E4 /* 2612intf.h */; };
-		718F8A120AC30A1300A326E4 /* 2612intf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86330AC309FE00A326E4 /* 2612intf.h */; };
 		718F8A130AC30A1300A326E4 /* 262intf.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86340AC309FE00A326E4 /* 262intf.c */; };
 		718F8A140AC30A1300A326E4 /* 262intf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86350AC309FE00A326E4 /* 262intf.h */; };
-		718F8A150AC30A1300A326E4 /* 262intf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86350AC309FE00A326E4 /* 262intf.h */; };
 		718F8A160AC30A1300A326E4 /* 3812intf.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86360AC309FE00A326E4 /* 3812intf.c */; };
 		718F8A170AC30A1300A326E4 /* 3812intf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86370AC309FE00A326E4 /* 3812intf.h */; };
-		718F8A180AC30A1300A326E4 /* 3812intf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86370AC309FE00A326E4 /* 3812intf.h */; };
 		718F8A190AC30A1300A326E4 /* 5220intf.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86380AC309FE00A326E4 /* 5220intf.c */; };
 		718F8A1A0AC30A1300A326E4 /* 5220intf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86390AC309FE00A326E4 /* 5220intf.h */; };
-		718F8A1B0AC30A1300A326E4 /* 5220intf.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86390AC309FE00A326E4 /* 5220intf.h */; };
 		718F8A1C0AC30A1300A326E4 /* adpcm.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F863A0AC309FE00A326E4 /* adpcm.c */; };
 		718F8A1D0AC30A1300A326E4 /* adpcm.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F863B0AC309FE00A326E4 /* adpcm.h */; };
-		718F8A1E0AC30A1300A326E4 /* adpcm.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F863B0AC309FE00A326E4 /* adpcm.h */; };
 		718F8A1F0AC30A1300A326E4 /* ay8910.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F863C0AC309FE00A326E4 /* ay8910.c */; };
 		718F8A200AC30A1300A326E4 /* ay8910.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F863D0AC309FE00A326E4 /* ay8910.h */; };
-		718F8A210AC30A1300A326E4 /* ay8910.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F863D0AC309FE00A326E4 /* ay8910.h */; };
 		718F8A220AC30A1300A326E4 /* bsmt2000.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F863E0AC309FE00A326E4 /* bsmt2000.c */; };
 		718F8A230AC30A1300A326E4 /* bsmt2000.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F863F0AC309FE00A326E4 /* bsmt2000.h */; };
-		718F8A240AC30A1300A326E4 /* bsmt2000.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F863F0AC309FE00A326E4 /* bsmt2000.h */; };
 		718F8A250AC30A1300A326E4 /* c140.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86400AC309FE00A326E4 /* c140.c */; };
 		718F8A260AC30A1300A326E4 /* c140.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86410AC309FE00A326E4 /* c140.h */; };
-		718F8A270AC30A1300A326E4 /* c140.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86410AC309FE00A326E4 /* c140.h */; };
 		718F8A280AC30A1300A326E4 /* c352.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86420AC309FE00A326E4 /* c352.c */; };
 		718F8A290AC30A1300A326E4 /* c352.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86430AC309FE00A326E4 /* c352.h */; };
-		718F8A2A0AC30A1300A326E4 /* c352.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86430AC309FE00A326E4 /* c352.h */; };
 		718F8A2B0AC30A1300A326E4 /* cem3394.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86440AC309FE00A326E4 /* cem3394.c */; };
 		718F8A2C0AC30A1300A326E4 /* cem3394.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86450AC309FE00A326E4 /* cem3394.h */; };
-		718F8A2D0AC30A1300A326E4 /* cem3394.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86450AC309FE00A326E4 /* cem3394.h */; };
 		718F8A2E0AC30A1300A326E4 /* dac.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86460AC309FE00A326E4 /* dac.c */; };
 		718F8A2F0AC30A1300A326E4 /* dac.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86470AC309FE00A326E4 /* dac.h */; };
-		718F8A300AC30A1300A326E4 /* dac.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86470AC309FE00A326E4 /* dac.h */; };
 		718F8A310AC30A1300A326E4 /* dmadac.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86480AC309FE00A326E4 /* dmadac.c */; };
 		718F8A320AC30A1300A326E4 /* dmadac.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86490AC309FE00A326E4 /* dmadac.h */; };
-		718F8A330AC30A1300A326E4 /* dmadac.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86490AC309FE00A326E4 /* dmadac.h */; };
 		718F8A340AC30A1300A326E4 /* es5506.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F864A0AC309FE00A326E4 /* es5506.c */; };
 		718F8A350AC30A1300A326E4 /* es5506.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F864B0AC309FE00A326E4 /* es5506.h */; };
-		718F8A360AC30A1300A326E4 /* es5506.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F864B0AC309FE00A326E4 /* es5506.h */; };
 		718F8A370AC30A1300A326E4 /* flower.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F864C0AC309FE00A326E4 /* flower.c */; };
 		718F8A380AC30A1300A326E4 /* fm.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F864D0AC309FE00A326E4 /* fm.c */; };
 		718F8A390AC30A1300A326E4 /* fm.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F864E0AC309FE00A326E4 /* fm.h */; };
-		718F8A3A0AC30A1300A326E4 /* fm.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F864E0AC309FE00A326E4 /* fm.h */; };
 		718F8A3B0AC30A1300A326E4 /* fmopl.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F864F0AC309FE00A326E4 /* fmopl.c */; };
 		718F8A3C0AC30A1300A326E4 /* fmopl.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86500AC309FE00A326E4 /* fmopl.h */; };
-		718F8A3D0AC30A1300A326E4 /* fmopl.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86500AC309FE00A326E4 /* fmopl.h */; };
 		718F8A3E0AC30A1300A326E4 /* hc55516.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86510AC309FE00A326E4 /* hc55516.c */; };
 		718F8A3F0AC30A1300A326E4 /* hc55516.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86520AC309FE00A326E4 /* hc55516.h */; };
-		718F8A400AC30A1300A326E4 /* hc55516.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86520AC309FE00A326E4 /* hc55516.h */; };
 		718F8A410AC30A1300A326E4 /* iremga20.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86530AC309FE00A326E4 /* iremga20.c */; };
 		718F8A420AC30A1300A326E4 /* iremga20.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86540AC309FE00A326E4 /* iremga20.h */; };
-		718F8A430AC30A1300A326E4 /* iremga20.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86540AC309FE00A326E4 /* iremga20.h */; };
 		718F8A440AC30A1300A326E4 /* k005289.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86550AC309FE00A326E4 /* k005289.c */; };
 		718F8A450AC30A1300A326E4 /* k005289.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86560AC309FE00A326E4 /* k005289.h */; };
-		718F8A460AC30A1300A326E4 /* k005289.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86560AC309FE00A326E4 /* k005289.h */; };
 		718F8A470AC30A1300A326E4 /* k007232.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86570AC309FE00A326E4 /* k007232.c */; };
 		718F8A480AC30A1300A326E4 /* k007232.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86580AC309FE00A326E4 /* k007232.h */; };
-		718F8A490AC30A1300A326E4 /* k007232.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86580AC309FE00A326E4 /* k007232.h */; };
 		718F8A4A0AC30A1300A326E4 /* k051649.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86590AC309FE00A326E4 /* k051649.c */; };
 		718F8A4B0AC30A1300A326E4 /* k051649.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F865A0AC309FE00A326E4 /* k051649.h */; };
-		718F8A4C0AC30A1300A326E4 /* k051649.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F865A0AC309FE00A326E4 /* k051649.h */; };
 		718F8A4D0AC30A1300A326E4 /* k053260.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F865B0AC309FE00A326E4 /* k053260.c */; };
 		718F8A4E0AC30A1300A326E4 /* k053260.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F865C0AC309FE00A326E4 /* k053260.h */; };
-		718F8A4F0AC30A1300A326E4 /* k053260.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F865C0AC309FE00A326E4 /* k053260.h */; };
 		718F8A500AC30A1300A326E4 /* k054539.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F865D0AC309FE00A326E4 /* k054539.c */; };
 		718F8A510AC30A1300A326E4 /* k054539.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F865E0AC309FE00A326E4 /* k054539.h */; };
-		718F8A520AC30A1300A326E4 /* k054539.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F865E0AC309FE00A326E4 /* k054539.h */; };
 		718F8A530AC30A1300A326E4 /* mixer.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F865F0AC309FE00A326E4 /* mixer.h */; };
 		718F8A540AC30A1300A326E4 /* mpeg.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86600AC309FE00A326E4 /* mpeg.h */; };
 		718F8A550AC30A1300A326E4 /* msm5205.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86610AC309FE00A326E4 /* msm5205.c */; };
 		718F8A560AC30A1300A326E4 /* msm5205.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86620AC309FE00A326E4 /* msm5205.h */; };
-		718F8A570AC30A1300A326E4 /* msm5205.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86620AC309FE00A326E4 /* msm5205.h */; };
 		718F8A580AC30A1300A326E4 /* multipcm.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86630AC309FE00A326E4 /* multipcm.c */; };
 		718F8A590AC30A1300A326E4 /* multipcm.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86640AC309FE00A326E4 /* multipcm.h */; };
-		718F8A5A0AC30A1300A326E4 /* multipcm.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86640AC309FE00A326E4 /* multipcm.h */; };
 		718F8A5B0AC30A1300A326E4 /* namco.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86650AC309FE00A326E4 /* namco.c */; };
 		718F8A5C0AC30A1300A326E4 /* namco.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86660AC309FE00A326E4 /* namco.h */; };
-		718F8A5D0AC30A1300A326E4 /* namco.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86660AC309FE00A326E4 /* namco.h */; };
 		718F8A5E0AC30A1300A326E4 /* pokey.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86670AC309FE00A326E4 /* pokey.c */; };
 		718F8A5F0AC30A1300A326E4 /* pokey.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86680AC309FE00A326E4 /* pokey.h */; };
-		718F8A600AC30A1300A326E4 /* pokey.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86680AC309FE00A326E4 /* pokey.h */; };
 		718F8A610AC30A1300A326E4 /* qsound.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86690AC309FE00A326E4 /* qsound.c */; };
 		718F8A620AC30A1300A326E4 /* qsound.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F866A0AC309FE00A326E4 /* qsound.h */; };
-		718F8A630AC30A1300A326E4 /* qsound.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F866A0AC309FE00A326E4 /* qsound.h */; };
 		718F8A640AC30A1300A326E4 /* rf5c400.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F866B0AC309FE00A326E4 /* rf5c400.c */; };
 		718F8A650AC30A1300A326E4 /* rf5c400.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F866C0AC309FE00A326E4 /* rf5c400.h */; };
-		718F8A660AC30A1300A326E4 /* rf5c400.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F866C0AC309FE00A326E4 /* rf5c400.h */; };
 		718F8A670AC30A1300A326E4 /* rf5c68.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F866D0AC309FE00A326E4 /* rf5c68.c */; };
 		718F8A680AC30A1300A326E4 /* rf5c68.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F866E0AC309FE00A326E4 /* rf5c68.h */; };
-		718F8A690AC30A1300A326E4 /* rf5c68.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F866E0AC309FE00A326E4 /* rf5c68.h */; };
 		718F8A6A0AC30A1300A326E4 /* samples.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F866F0AC309FE00A326E4 /* samples.c */; };
 		718F8A6B0AC30A1300A326E4 /* samples.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86700AC309FE00A326E4 /* samples.h */; };
-		718F8A6C0AC30A1300A326E4 /* samples.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86700AC309FE00A326E4 /* samples.h */; };
 		718F8A6D0AC30A1300A326E4 /* scsp.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86710AC309FE00A326E4 /* scsp.c */; };
 		718F8A6E0AC30A1300A326E4 /* scsp.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86720AC309FE00A326E4 /* scsp.h */; };
-		718F8A6F0AC30A1300A326E4 /* scsp.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86720AC309FE00A326E4 /* scsp.h */; };
 		718F8A700AC30A1300A326E4 /* segapcm.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86730AC309FE00A326E4 /* segapcm.c */; };
 		718F8A710AC30A1300A326E4 /* segapcm.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86740AC309FE00A326E4 /* segapcm.h */; };
-		718F8A720AC30A1300A326E4 /* segapcm.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86740AC309FE00A326E4 /* segapcm.h */; };
 		718F8A730AC30A1300A326E4 /* sn76496.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86750AC309FE00A326E4 /* sn76496.c */; };
 		718F8A740AC30A1300A326E4 /* sn76496.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86760AC309FE00A326E4 /* sn76496.h */; };
-		718F8A750AC30A1300A326E4 /* sn76496.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86760AC309FE00A326E4 /* sn76496.h */; };
 		718F8A760AC30A1300A326E4 /* streams.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86770AC309FE00A326E4 /* streams.c */; };
 		718F8A770AC30A1300A326E4 /* streams.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86780AC309FE00A326E4 /* streams.h */; };
-		718F8A780AC30A1300A326E4 /* streams.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86780AC309FE00A326E4 /* streams.h */; };
 		718F8A790AC30A1300A326E4 /* tms5220.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86790AC309FE00A326E4 /* tms5220.c */; };
 		718F8A7A0AC30A1300A326E4 /* tms5220.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F867A0AC309FE00A326E4 /* tms5220.h */; };
-		718F8A7B0AC30A1300A326E4 /* tms5220.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F867A0AC309FE00A326E4 /* tms5220.h */; };
 		718F8A7C0AC30A1300A326E4 /* tms5220r.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F867B0AC309FE00A326E4 /* tms5220r.c */; };
 		718F8A7D0AC30A1300A326E4 /* tms57002.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F867C0AC309FE00A326E4 /* tms57002.c */; };
 		718F8A7E0AC30A1300A326E4 /* tms57002.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F867D0AC309FE00A326E4 /* tms57002.h */; };
-		718F8A7F0AC30A1300A326E4 /* tms57002.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F867D0AC309FE00A326E4 /* tms57002.h */; };
 		718F8A800AC30A1300A326E4 /* upd7759.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F867E0AC309FE00A326E4 /* upd7759.c */; };
 		718F8A810AC30A1300A326E4 /* upd7759.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F867F0AC309FE00A326E4 /* upd7759.h */; };
-		718F8A820AC30A1300A326E4 /* upd7759.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F867F0AC309FE00A326E4 /* upd7759.h */; };
 		718F8A830AC30A1300A326E4 /* vlm5030.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86800AC309FE00A326E4 /* vlm5030.c */; };
 		718F8A840AC30A1300A326E4 /* vlm5030.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86810AC309FE00A326E4 /* vlm5030.h */; };
-		718F8A850AC30A1300A326E4 /* vlm5030.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86810AC309FE00A326E4 /* vlm5030.h */; };
 		718F8A860AC30A1300A326E4 /* ym2151.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86820AC309FE00A326E4 /* ym2151.c */; };
 		718F8A870AC30A1300A326E4 /* ym2151.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86830AC309FE00A326E4 /* ym2151.h */; };
-		718F8A880AC30A1300A326E4 /* ym2151.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86830AC309FE00A326E4 /* ym2151.h */; };
 		718F8A890AC30A1300A326E4 /* ym2413.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86840AC309FE00A326E4 /* ym2413.c */; };
 		718F8A8A0AC30A1300A326E4 /* ym2413.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86850AC309FE00A326E4 /* ym2413.h */; };
-		718F8A8B0AC30A1300A326E4 /* ym2413.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86850AC309FE00A326E4 /* ym2413.h */; };
 		718F8A8C0AC30A1300A326E4 /* ymdeltat.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86860AC309FE00A326E4 /* ymdeltat.c */; };
 		718F8A8D0AC30A1300A326E4 /* ymdeltat.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86870AC309FE00A326E4 /* ymdeltat.h */; };
-		718F8A8E0AC30A1300A326E4 /* ymdeltat.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86870AC309FE00A326E4 /* ymdeltat.h */; };
 		718F8A8F0AC30A1300A326E4 /* ymf262.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F86880AC309FE00A326E4 /* ymf262.c */; };
 		718F8A900AC30A1300A326E4 /* ymf262.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86890AC309FE00A326E4 /* ymf262.h */; };
-		718F8A910AC30A1300A326E4 /* ymf262.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F86890AC309FE00A326E4 /* ymf262.h */; };
 		718F8A920AC30A1300A326E4 /* ymf271.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F868A0AC309FE00A326E4 /* ymf271.c */; };
 		718F8A930AC30A1300A326E4 /* ymf271.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F868B0AC309FE00A326E4 /* ymf271.h */; };
-		718F8A940AC30A1300A326E4 /* ymf271.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F868B0AC309FE00A326E4 /* ymf271.h */; };
 		718F8A950AC30A1300A326E4 /* ymf278b.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F868C0AC309FE00A326E4 /* ymf278b.c */; };
 		718F8A960AC30A1300A326E4 /* ymf278b.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F868D0AC309FE00A326E4 /* ymf278b.h */; };
-		718F8A970AC30A1300A326E4 /* ymf278b.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F868D0AC309FE00A326E4 /* ymf278b.h */; };
 		718F8A980AC30A1300A326E4 /* ymz280b.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F868E0AC309FE00A326E4 /* ymz280b.c */; };
 		718F8A990AC30A1300A326E4 /* ymz280b.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F868F0AC309FE00A326E4 /* ymz280b.h */; };
-		718F8A9A0AC30A1300A326E4 /* ymz280b.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F868F0AC309FE00A326E4 /* ymz280b.h */; };
 		718F8AAA0AC30A1900A326E4 /* xmltok_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F860B0AC309FD00A326E4 /* xmltok_impl.h */; };
 		718F8B3C0AC30CC200A326E4 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F8AFC0AC30CC200A326E4 /* adler32.c */; };
 		718F8B3D0AC30CC200A326E4 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 718F8AFD0AC30CC200A326E4 /* compress.c */; };
@@ -1577,91 +1477,58 @@
 			buildActionMask = 2147483647;
 			files = (
 				718F88B40AC30A1300A326E4 /* 6821pia.h in Headers */,
-				718F88B50AC30A1300A326E4 /* 6821pia.h in Headers */,
 				718F88B60AC30A1300A326E4 /* board.h in Headers */,
 				718F88B70AC30A1300A326E4 /* cdrom.h in Headers */,
 				718F88B90AC30A1300A326E4 /* chd.h in Headers */,
-				718F88BA0AC30A1300A326E4 /* chd.h in Headers */,
 				718F88BC0AC30A1300A326E4 /* chdcd.h in Headers */,
-				718F88BD0AC30A1300A326E4 /* chdcd.h in Headers */,
 				718F88BF0AC30A1300A326E4 /* cpuintrf.h in Headers */,
-				718F88C00AC30A1300A326E4 /* cpuintrf.h in Headers */,
 				718F88C10AC30A1300A326E4 /* driver.h in Headers */,
 				718F88C20AC30A1300A326E4 /* drvlist.h in Headers */,
 				718F88C30AC30A1300A326E4 /* expat.h in Headers */,
 				718F88C40AC30A1300A326E4 /* filter.h in Headers */,
 				718F88C60AC30A1300A326E4 /* gamelist.h in Headers */,
-				718F88C70AC30A1300A326E4 /* gamelist.h in Headers */,
 				718F88C90AC30A1300A326E4 /* harddisk.h in Headers */,
-				718F88CA0AC30A1300A326E4 /* harddisk.h in Headers */,
 				718F88CC0AC30A1300A326E4 /* irem_cpu.h in Headers */,
-				718F88CD0AC30A1300A326E4 /* irem_cpu.h in Headers */,
 				718F88D00AC30A1300A326E4 /* m1filter.h in Headers */,
-				718F88D10AC30A1300A326E4 /* m1filter.h in Headers */,
 				718F88D20AC30A1300A326E4 /* m1memory.h in Headers */,
 				718F88D40AC30A1300A326E4 /* m1queue.h in Headers */,
-				718F88D50AC30A1300A326E4 /* m1queue.h in Headers */,
 				718F88D70AC30A1300A326E4 /* m1snd.h in Headers */,
-				718F88D80AC30A1300A326E4 /* m1snd.h in Headers */,
 				718F88D90AC30A1300A326E4 /* m1stdinc.h in Headers */,
 				718F88DA0AC30A1300A326E4 /* m1ui.h in Headers */,
 				718F88DB0AC30A1300A326E4 /* mamedbg.h in Headers */,
 				718F88DD0AC30A1300A326E4 /* md5.h in Headers */,
-				718F88DE0AC30A1300A326E4 /* md5.h in Headers */,
 				718F88E00AC30A1300A326E4 /* memory.h in Headers */,
-				718F88E10AC30A1300A326E4 /* memory.h in Headers */,
 				718F88E20AC30A1300A326E4 /* nec.h in Headers */,
 				718F88E30AC30A1300A326E4 /* osd_cpu.h in Headers */,
 				718F88E50AC30A1300A326E4 /* rom.h in Headers */,
-				718F88E60AC30A1300A326E4 /* rom.h in Headers */,
 				718F88E80AC30A1300A326E4 /* sha1.h in Headers */,
-				718F88E90AC30A1300A326E4 /* sha1.h in Headers */,
 				718F88EB0AC30A1300A326E4 /* sndintrf.h in Headers */,
-				718F88EC0AC30A1300A326E4 /* sndintrf.h in Headers */,
 				718F88EE0AC30A1300A326E4 /* state.h in Headers */,
-				718F88EF0AC30A1300A326E4 /* state.h in Headers */,
 				718F88F10AC30A1300A326E4 /* taitosnd.h in Headers */,
-				718F88F20AC30A1300A326E4 /* taitosnd.h in Headers */,
 				718F88F40AC30A1300A326E4 /* timer.h in Headers */,
-				718F88F50AC30A1300A326E4 /* timer.h in Headers */,
 				718F88F70AC30A1300A326E4 /* trklist.h in Headers */,
-				718F88F80AC30A1300A326E4 /* trklist.h in Headers */,
 				718F88F90AC30A1300A326E4 /* unzip.h in Headers */,
 				718F88FB0AC30A1300A326E4 /* wavelog.h in Headers */,
-				718F88FC0AC30A1300A326E4 /* wavelog.h in Headers */,
 				718F88FE0AC30A1300A326E4 /* xmlout.h in Headers */,
-				718F88FF0AC30A1300A326E4 /* xmlout.h in Headers */,
 				718F89820AC30A1300A326E4 /* adsp2100.h in Headers */,
-				718F89830AC30A1300A326E4 /* adsp2100.h in Headers */,
 				718F89850AC30A1300A326E4 /* h6280.h in Headers */,
-				718F89860AC30A1300A326E4 /* h6280.h in Headers */,
 				718F89870AC30A1300A326E4 /* h6280ops.h in Headers */,
 				718F89890AC30A1300A326E4 /* h83002.h in Headers */,
-				718F898A0AC30A1300A326E4 /* h83002.h in Headers */,
 				718F898C0AC30A1300A326E4 /* h8priv.h in Headers */,
 				718F898E0AC30A1300A326E4 /* hd6309.h in Headers */,
-				718F898F0AC30A1300A326E4 /* hd6309.h in Headers */,
 				718F89910AC30A1300A326E4 /* i8039.h in Headers */,
-				718F89920AC30A1300A326E4 /* i8039.h in Headers */,
 				718F89930AC30A1300A326E4 /* ill02.h in Headers */,
 				718F89950AC30A1300A326E4 /* m37710.h in Headers */,
-				718F89960AC30A1300A326E4 /* m37710.h in Headers */,
 				718F89970AC30A1300A326E4 /* m37710cm.h in Headers */,
 				718F899C0AC30A1300A326E4 /* m37710op.h in Headers */,
 				718F899E0AC30A1300A326E4 /* m6502.h in Headers */,
-				718F899F0AC30A1300A326E4 /* m6502.h in Headers */,
 				718F89A10AC30A1300A326E4 /* m6800.h in Headers */,
-				718F89A20AC30A1300A326E4 /* m6800.h in Headers */,
 				718F89A40AC30A1300A326E4 /* m6809.h in Headers */,
-				718F89A50AC30A1300A326E4 /* m6809.h in Headers */,
 				718F89A60AC30A1300A326E4 /* m68k.h in Headers */,
 				718F89A70AC30A1300A326E4 /* m68kconf.h in Headers */,
 				718F89A90AC30A1300A326E4 /* m68kcpu.h in Headers */,
-				718F89AA0AC30A1300A326E4 /* m68kcpu.h in Headers */,
 				718F89AB0AC30A1300A326E4 /* m68kmame.h in Headers */,
 				718F89B00AC30A1300A326E4 /* m68kops.h in Headers */,
-				718F89B10AC30A1300A326E4 /* m68kops.h in Headers */,
-				718F89B60AC30A1300A326E4 /* nec.h in Headers */,
 				718F89B70AC30A1300A326E4 /* necea.h in Headers */,
 				718F89B80AC30A1300A326E4 /* nechost.h in Headers */,
 				718F89B90AC30A1300A326E4 /* necinstr.h in Headers */,
@@ -1671,17 +1538,12 @@
 				718F89BD0AC30A1300A326E4 /* opsc02.h in Headers */,
 				718F89BE0AC30A1300A326E4 /* opsn2a03.h in Headers */,
 				718F89C00AC30A1300A326E4 /* pic16c5x.h in Headers */,
-				718F89C10AC30A1300A326E4 /* pic16c5x.h in Headers */,
 				718F89C30AC30A1300A326E4 /* tms32010.h in Headers */,
-				718F89C40AC30A1300A326E4 /* tms32010.h in Headers */,
 				718F89C60AC30A1300A326E4 /* tms32031.h in Headers */,
-				718F89C70AC30A1300A326E4 /* tms32031.h in Headers */,
 				718F89C90AC30A1300A326E4 /* z80.h in Headers */,
-				718F89CA0AC30A1300A326E4 /* z80.h in Headers */,
 				718F89CB0AC30A1300A326E4 /* z80daa.h in Headers */,
 				718F89CC0AC30A1300A326E4 /* ascii.h in Headers */,
 				718F89CD0AC30A1300A326E4 /* asciitab.h in Headers */,
-				718F89CE0AC30A1300A326E4 /* expat.h in Headers */,
 				718F89CF0AC30A1300A326E4 /* expat_config.h in Headers */,
 				718F89D00AC30A1300A326E4 /* iasciitab.h in Headers */,
 				718F89D10AC30A1300A326E4 /* internal.h in Headers */,
@@ -1690,136 +1552,74 @@
 				718F89D40AC30A1300A326E4 /* utf8tab.h in Headers */,
 				718F89D50AC30A1300A326E4 /* winconfig.h in Headers */,
 				718F89D80AC30A1300A326E4 /* xmlrole.h in Headers */,
-				718F89D90AC30A1300A326E4 /* xmlrole.h in Headers */,
 				718F89DB0AC30A1300A326E4 /* xmltok.h in Headers */,
-				718F89DC0AC30A1300A326E4 /* xmltok.h in Headers */,
 				718F89DD0AC30A1300A326E4 /* amp.h in Headers */,
 				718F89DF0AC30A1300A326E4 /* audio.h in Headers */,
-				718F89E00AC30A1300A326E4 /* audio.h in Headers */,
 				718F89E10AC30A1300A326E4 /* config.h in Headers */,
 				718F89E30AC30A1300A326E4 /* dump.h in Headers */,
-				718F89E40AC30A1300A326E4 /* dump.h in Headers */,
 				718F89E50AC30A1300A326E4 /* formats.h in Headers */,
 				718F89E70AC30A1300A326E4 /* getbits.h in Headers */,
-				718F89E80AC30A1300A326E4 /* getbits.h in Headers */,
 				718F89EA0AC30A1300A326E4 /* getdata.h in Headers */,
-				718F89EB0AC30A1300A326E4 /* getdata.h in Headers */,
 				718F89ED0AC30A1300A326E4 /* huffman.h in Headers */,
-				718F89EE0AC30A1300A326E4 /* huffman.h in Headers */,
 				718F89F00AC30A1300A326E4 /* layer2.h in Headers */,
-				718F89F10AC30A1300A326E4 /* layer2.h in Headers */,
 				718F89F30AC30A1300A326E4 /* layer3.h in Headers */,
-				718F89F40AC30A1300A326E4 /* layer3.h in Headers */,
 				718F89F60AC30A1300A326E4 /* misc2.h in Headers */,
-				718F89F70AC30A1300A326E4 /* misc2.h in Headers */,
 				718F89F90AC30A1300A326E4 /* position.h in Headers */,
-				718F89FA0AC30A1300A326E4 /* position.h in Headers */,
 				718F89FB0AC30A1300A326E4 /* proto.h in Headers */,
 				718F89FC0AC30A1300A326E4 /* rtbuf.h in Headers */,
 				718F89FE0AC30A1300A326E4 /* transform.h in Headers */,
-				718F89FF0AC30A1300A326E4 /* transform.h in Headers */,
 				718F8A020AC30A1300A326E4 /* 2151intf.h in Headers */,
-				718F8A030AC30A1300A326E4 /* 2151intf.h in Headers */,
 				718F8A050AC30A1300A326E4 /* 2203intf.h in Headers */,
-				718F8A060AC30A1300A326E4 /* 2203intf.h in Headers */,
 				718F8A080AC30A1300A326E4 /* 2413intf.h in Headers */,
-				718F8A090AC30A1300A326E4 /* 2413intf.h in Headers */,
 				718F8A0B0AC30A1300A326E4 /* 2608intf.h in Headers */,
-				718F8A0C0AC30A1300A326E4 /* 2608intf.h in Headers */,
 				718F8A0E0AC30A1300A326E4 /* 2610intf.h in Headers */,
-				718F8A0F0AC30A1300A326E4 /* 2610intf.h in Headers */,
 				718F8A110AC30A1300A326E4 /* 2612intf.h in Headers */,
-				718F8A120AC30A1300A326E4 /* 2612intf.h in Headers */,
 				718F8A140AC30A1300A326E4 /* 262intf.h in Headers */,
-				718F8A150AC30A1300A326E4 /* 262intf.h in Headers */,
 				718F8A170AC30A1300A326E4 /* 3812intf.h in Headers */,
-				718F8A180AC30A1300A326E4 /* 3812intf.h in Headers */,
 				718F8A1A0AC30A1300A326E4 /* 5220intf.h in Headers */,
-				718F8A1B0AC30A1300A326E4 /* 5220intf.h in Headers */,
 				718F8A1D0AC30A1300A326E4 /* adpcm.h in Headers */,
-				718F8A1E0AC30A1300A326E4 /* adpcm.h in Headers */,
 				718F8A200AC30A1300A326E4 /* ay8910.h in Headers */,
-				718F8A210AC30A1300A326E4 /* ay8910.h in Headers */,
 				718F8A230AC30A1300A326E4 /* bsmt2000.h in Headers */,
-				718F8A240AC30A1300A326E4 /* bsmt2000.h in Headers */,
 				718F8A260AC30A1300A326E4 /* c140.h in Headers */,
-				718F8A270AC30A1300A326E4 /* c140.h in Headers */,
 				718F8A290AC30A1300A326E4 /* c352.h in Headers */,
-				718F8A2A0AC30A1300A326E4 /* c352.h in Headers */,
 				718F8A2C0AC30A1300A326E4 /* cem3394.h in Headers */,
-				718F8A2D0AC30A1300A326E4 /* cem3394.h in Headers */,
 				718F8A2F0AC30A1300A326E4 /* dac.h in Headers */,
-				718F8A300AC30A1300A326E4 /* dac.h in Headers */,
 				718F8A320AC30A1300A326E4 /* dmadac.h in Headers */,
-				718F8A330AC30A1300A326E4 /* dmadac.h in Headers */,
 				718F8A350AC30A1300A326E4 /* es5506.h in Headers */,
-				718F8A360AC30A1300A326E4 /* es5506.h in Headers */,
 				718F8A390AC30A1300A326E4 /* fm.h in Headers */,
-				718F8A3A0AC30A1300A326E4 /* fm.h in Headers */,
 				718F8A3C0AC30A1300A326E4 /* fmopl.h in Headers */,
-				718F8A3D0AC30A1300A326E4 /* fmopl.h in Headers */,
 				718F8A3F0AC30A1300A326E4 /* hc55516.h in Headers */,
-				718F8A400AC30A1300A326E4 /* hc55516.h in Headers */,
 				718F8A420AC30A1300A326E4 /* iremga20.h in Headers */,
-				718F8A430AC30A1300A326E4 /* iremga20.h in Headers */,
 				718F8A450AC30A1300A326E4 /* k005289.h in Headers */,
-				718F8A460AC30A1300A326E4 /* k005289.h in Headers */,
 				718F8A480AC30A1300A326E4 /* k007232.h in Headers */,
-				718F8A490AC30A1300A326E4 /* k007232.h in Headers */,
 				718F8A4B0AC30A1300A326E4 /* k051649.h in Headers */,
-				718F8A4C0AC30A1300A326E4 /* k051649.h in Headers */,
 				718F8A4E0AC30A1300A326E4 /* k053260.h in Headers */,
-				718F8A4F0AC30A1300A326E4 /* k053260.h in Headers */,
 				718F8A510AC30A1300A326E4 /* k054539.h in Headers */,
-				718F8A520AC30A1300A326E4 /* k054539.h in Headers */,
 				718F8A530AC30A1300A326E4 /* mixer.h in Headers */,
 				718F8A540AC30A1300A326E4 /* mpeg.h in Headers */,
 				718F8A560AC30A1300A326E4 /* msm5205.h in Headers */,
-				718F8A570AC30A1300A326E4 /* msm5205.h in Headers */,
 				718F8A590AC30A1300A326E4 /* multipcm.h in Headers */,
-				718F8A5A0AC30A1300A326E4 /* multipcm.h in Headers */,
 				718F8A5C0AC30A1300A326E4 /* namco.h in Headers */,
-				718F8A5D0AC30A1300A326E4 /* namco.h in Headers */,
 				718F8A5F0AC30A1300A326E4 /* pokey.h in Headers */,
-				718F8A600AC30A1300A326E4 /* pokey.h in Headers */,
 				718F8A620AC30A1300A326E4 /* qsound.h in Headers */,
-				718F8A630AC30A1300A326E4 /* qsound.h in Headers */,
 				718F8A650AC30A1300A326E4 /* rf5c400.h in Headers */,
-				718F8A660AC30A1300A326E4 /* rf5c400.h in Headers */,
 				718F8A680AC30A1300A326E4 /* rf5c68.h in Headers */,
-				718F8A690AC30A1300A326E4 /* rf5c68.h in Headers */,
 				718F8A6B0AC30A1300A326E4 /* samples.h in Headers */,
-				718F8A6C0AC30A1300A326E4 /* samples.h in Headers */,
 				718F8A6E0AC30A1300A326E4 /* scsp.h in Headers */,
-				718F8A6F0AC30A1300A326E4 /* scsp.h in Headers */,
 				718F8A710AC30A1300A326E4 /* segapcm.h in Headers */,
-				718F8A720AC30A1300A326E4 /* segapcm.h in Headers */,
 				718F8A740AC30A1300A326E4 /* sn76496.h in Headers */,
-				718F8A750AC30A1300A326E4 /* sn76496.h in Headers */,
 				718F8A770AC30A1300A326E4 /* streams.h in Headers */,
-				718F8A780AC30A1300A326E4 /* streams.h in Headers */,
 				718F8A7A0AC30A1300A326E4 /* tms5220.h in Headers */,
-				718F8A7B0AC30A1300A326E4 /* tms5220.h in Headers */,
 				718F8A7E0AC30A1300A326E4 /* tms57002.h in Headers */,
-				718F8A7F0AC30A1300A326E4 /* tms57002.h in Headers */,
 				718F8A810AC30A1300A326E4 /* upd7759.h in Headers */,
-				718F8A820AC30A1300A326E4 /* upd7759.h in Headers */,
 				718F8A840AC30A1300A326E4 /* vlm5030.h in Headers */,
-				718F8A850AC30A1300A326E4 /* vlm5030.h in Headers */,
 				718F8A870AC30A1300A326E4 /* ym2151.h in Headers */,
-				718F8A880AC30A1300A326E4 /* ym2151.h in Headers */,
 				718F8A8A0AC30A1300A326E4 /* ym2413.h in Headers */,
-				718F8A8B0AC30A1300A326E4 /* ym2413.h in Headers */,
 				718F8A8D0AC30A1300A326E4 /* ymdeltat.h in Headers */,
-				718F8A8E0AC30A1300A326E4 /* ymdeltat.h in Headers */,
 				718F8A900AC30A1300A326E4 /* ymf262.h in Headers */,
-				718F8A910AC30A1300A326E4 /* ymf262.h in Headers */,
 				718F8A930AC30A1300A326E4 /* ymf271.h in Headers */,
-				718F8A940AC30A1300A326E4 /* ymf271.h in Headers */,
 				718F8A960AC30A1300A326E4 /* ymf278b.h in Headers */,
-				718F8A970AC30A1300A326E4 /* ymf278b.h in Headers */,
 				718F8A990AC30A1300A326E4 /* ymz280b.h in Headers */,
-				718F8A9A0AC30A1300A326E4 /* ymz280b.h in Headers */,
 				718F8AAA0AC30A1900A326E4 /* xmltok_impl.h in Headers */,
 				718F8B3F0AC30CC200A326E4 /* crc32.h in Headers */,
 				718F8B420AC30CC200A326E4 /* deflate.h in Headers */,
@@ -1871,9 +1671,16 @@
 /* Begin PBXProject section */
 		718F84E40AC309FB00A326E4 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+			};
 			buildConfigurationList = 718F84E50AC309FB00A326E4 /* Build configuration list for PBXProject "m1" */;
 			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 718F84E20AC309FB00A326E4;
 			productRefGroup = 718F84F20AC309FC00A326E4 /* Products */;
 			projectDirPath = "";
@@ -2198,11 +2005,35 @@
 		718F84E60AC309FB00A326E4 /* Build */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = macosx10.13;
 			};
 			name = Build;
 		};
@@ -2210,10 +2041,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = (
-					ppc,
-					i386,
-				);
 				DEAD_CODE_STRIPPING = YES;
 				GCC_ALTIVEC_EXTENSIONS = NO;
 				GCC_CHAR_IS_UNSIGNED_CHAR = NO;
@@ -2239,10 +2066,10 @@
 					warning,
 				);
 				PREBINDING = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bannister.m1;
 				PRODUCT_NAME = M1;
 				REZ_SCRIPT_TYPE = Roman;
 				REZ_SUPPRESS_REDECLARED_RESOURCE_TYPE_WARNINGS = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
 			};
 			name = Build;
 		};
