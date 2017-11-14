@@ -31,9 +31,10 @@
 
 void menus_open(void)
 {
-	Handle	menus;
+	//Handle	menus;
 	
 	// Menus
+    /*
 	menus = GetNewMBar(128);
 	assert(menus != nil);
 	SetMenuBar(menus);
@@ -41,6 +42,8 @@ void menus_open(void)
 	DrawMenuBar();
 	
 	SetMenuItemCommandID(GetMenuRef(kMenuApple), kMenuItemAppleAbout, kHICommandAbout);
+    */
+    printf("Get new menubar #128\n");
 }
 
 
@@ -63,7 +66,7 @@ OSStatus menus_handle(EventRef event)
 	switch (command.commandID)
 	{
 		case kHICommandAbout:
-			window_switch_to_about();
+			//window_switch_to_about();
 			result = noErr;
 			break;
 	}

@@ -441,8 +441,6 @@
 		71AD976E0B73E75700880586 /* m1.xml in CopyFiles */ = {isa = PBXBuildFile; fileRef = 71AD976D0B73E75700880586 /* m1.xml */; };
 		71B51D2C0D0DDDA600E0961D /* scspdsp.c in Sources */ = {isa = PBXBuildFile; fileRef = 71B51D2A0D0DDDA600E0961D /* scspdsp.c */; };
 		71B51D2D0D0DDDA600E0961D /* scspdsp.h in Headers */ = {isa = PBXBuildFile; fileRef = 71B51D2B0D0DDDA600E0961D /* scspdsp.h */; };
-		71D23CBD0AC572620099D158 /* MoreFilesX.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D23CBB0AC572620099D158 /* MoreFilesX.h */; };
-		71D23CBE0AC572620099D158 /* MoreFilesX.c in Sources */ = {isa = PBXBuildFile; fileRef = 71D23CBC0AC572620099D158 /* MoreFilesX.c */; };
 		71D23F5E0AC58CA00099D158 /* M1_App.icns in Resources */ = {isa = PBXBuildFile; fileRef = 71D23F5D0AC58CA00099D158 /* M1_App.icns */; };
 		71D23F710AC58D540099D158 /* rbeam.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = 71D23F700AC58D540099D158 /* rbeam.rsrc */; };
 		71D307DA0AC30FB300578FF2 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D307D60AC30FB300578FF2 /* Carbon.framework */; };
@@ -906,8 +904,6 @@
 		71AD976D0B73E75700880586 /* m1.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = m1.xml; path = Core/m1.xml; sourceTree = "<group>"; };
 		71B51D2A0D0DDDA600E0961D /* scspdsp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = scspdsp.c; path = Core/sound/scspdsp.c; sourceTree = "<group>"; };
 		71B51D2B0D0DDDA600E0961D /* scspdsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scspdsp.h; path = Core/sound/scspdsp.h; sourceTree = "<group>"; };
-		71D23CBB0AC572620099D158 /* MoreFilesX.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MoreFilesX.h; sourceTree = "<group>"; };
-		71D23CBC0AC572620099D158 /* MoreFilesX.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = MoreFilesX.c; sourceTree = "<group>"; };
 		71D23F5D0AC58CA00099D158 /* M1_App.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = M1_App.icns; path = mac/M1_App.icns; sourceTree = "<group>"; };
 		71D23F700AC58D540099D158 /* rbeam.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; name = rbeam.rsrc; path = mac/rbeam.rsrc; sourceTree = "<group>"; };
 		71D307D60AC30FB300578FF2 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
@@ -1100,8 +1096,6 @@
 				7143B1630AC5D02800379701 /* mac-snd.h */,
 				7143B3640AC6EEC900379701 /* mac-window.cpp */,
 				7143B3630AC6EEC900379701 /* mac-window.h */,
-				71D23CBC0AC572620099D158 /* MoreFilesX.c */,
-				71D23CBB0AC572620099D158 /* MoreFilesX.h */,
 			);
 			path = mac;
 			sourceTree = "<group>";
@@ -1634,7 +1628,6 @@
 				718F8B5B0AC30CC200A326E4 /* zutil.h in Headers */,
 				714AB94F0AC56C8C00E9F519 /* mac-roms.h in Headers */,
 				714AB9510AC56C8C00E9F519 /* mac-m1.h in Headers */,
-				71D23CBD0AC572620099D158 /* MoreFilesX.h in Headers */,
 				7143B1650AC5D02800379701 /* mac-snd.h in Headers */,
 				7143B3650AC6EEC900379701 /* mac-window.h in Headers */,
 				7143B6360AC71B9100379701 /* mac-menus.h in Headers */,
@@ -1843,7 +1836,6 @@
 				71D309300AC3124000578FF2 /* unzip.c in Sources */,
 				714AB9500AC56C8C00E9F519 /* mac-roms.cpp in Sources */,
 				714AB9530AC56C9B00E9F519 /* mac-m1.cpp in Sources */,
-				71D23CBE0AC572620099D158 /* MoreFilesX.c in Sources */,
 				7143B1640AC5D02800379701 /* mac-snd.cpp in Sources */,
 				7143B3660AC6EEC900379701 /* mac-window.cpp in Sources */,
 				7143B6350AC71B9100379701 /* mac-menus.cpp in Sources */,
@@ -2032,7 +2024,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				SDKROOT = macosx10.13;
 			};
 			name = Build;

@@ -12,6 +12,7 @@
 
 // mac-m1.cpp
 
+#include <CoreFoundation/CoreFoundation.h>
 #include "m1ui.h"
 #include "m1snd.h"
 #include "wavelog.h"
@@ -61,12 +62,12 @@ void mac_switch_game(int game)
 
 		// Update display info
 		sprintf(buffer, "%s.zip", m1snd_get_info_str(M1_SINF_ROMNAME, gCurrentGame));
-		window_set_game_name(m1snd_get_info_str(M1_SINF_VISNAME, gCurrentGame));
-		window_set_song_title(nil);
-		window_set_song_number(nil);
-		window_set_driver_name(nil);
-		window_set_hardware_desc(nil);
-		window_set_rom_name(buffer);
+		//window_set_game_name(m1snd_get_info_str(M1_SINF_VISNAME, gCurrentGame));
+		//window_set_song_title(nil);
+		//window_set_song_number(nil);
+		//window_set_driver_name(nil);
+		//window_set_hardware_desc(nil);
+		//window_set_rom_name(buffer);
 
 		// Kick it off
 		if (m1snd_run(M1_CMD_GAMEJMP, gCurrentGame) == 0)
@@ -75,8 +76,8 @@ void mac_switch_game(int game)
 		}
 		else
 		{
-			SysBeep(1);
-		}
+            // There was some old SysBeep code here
+        }
 	}
 }
 
@@ -137,20 +138,20 @@ int mac_msg_callback(void *unused, int message, char *txt, int iparm)
 	{
 		case M1_MSG_DRIVERNAME:
 		{
-			window_set_driver_name(txt);
+			//window_set_driver_name(txt);
 		}
 		break;
 		
 		case M1_MSG_HARDWAREDESC:
 		{
-			window_set_hardware_desc(txt);
+			//window_set_hardware_desc(txt);
 		}
 		break;
 		
 		case M1_MSG_ROMLOADERR:
 		{
-			window_set_song_number((char *)"<unable to load roms>");
-			window_set_song_title((char *)"<unable to load roms>");
+			//window_set_song_number((char *)"<unable to load roms>");
+			//window_set_song_title((char *)"<unable to load roms>");
 		}
 		break;
 		
@@ -166,8 +167,8 @@ int mac_msg_callback(void *unused, int message, char *txt, int iparm)
 			
 			gCurrentGame = m1snd_get_info_int(M1_IINF_CURGAME, 0);
 			sprintf(buffer, "Song %i", m1snd_get_info_int(M1_IINF_CURSONG, 0));
-			window_set_song_number(buffer);
-			window_set_song_title(m1snd_get_info_str(M1_SINF_TRKNAME, (iparm<<16) | gCurrentGame));
+			//window_set_song_number(buffer);
+			//window_set_song_title(m1snd_get_info_str(M1_SINF_TRKNAME, (iparm<<16) | gCurrentGame));
 		}
 		break;
 		
@@ -199,7 +200,7 @@ int mac_msg_callback(void *unused, int message, char *txt, int iparm)
 		case M1_MSG_BOOTFINISHED:
 		{
 			// Update the channel configuration stuff
-			window_channel_browser_update();
+			//window_channel_browser_update();
 		}
 		break;
 		
@@ -208,9 +209,7 @@ int mac_msg_callback(void *unused, int message, char *txt, int iparm)
 		{
 			short itemHit;
 			Str255 pstr;
-			
-			CopyCStringToPascal(txt, pstr);
-			StandardAlert(kAlertStopAlert, "\pAn error has occurred.", pstr, NULL, &itemHit);
+            printf("M1_MSG_ERROR: %s\n", txt);
 		}
 		break;
 	}
@@ -329,7 +328,6 @@ static pascal OSStatus mac_events_handler(EventHandlerCallRef unused1, EventRef 
 
 int main(void)
 {
-	OSStatus						status;
 	long							result;
 	EventHandlerRef					dispatcher_ref;
 		
@@ -337,12 +335,10 @@ int main(void)
 	menus_open();
 
 	// Check for compatible version of Mac OS X
-	status = Gestalt(gestaltSystemVersion, &result);
-	if (!(!status && (result >= 0x1050)))
-	{
-		Alert(128, 0L);
-		return 0;
-	}
+    if (floor(kCFCoreFoundationVersionNumber) < kCFCoreFoundationVersionNumber10_9) {
+        fprintf(stderr, "[CRIT] You must be on at least OSX 10.9 to use M1.\n");
+        return 0;
+    }
 
 	// Set directory to resources directory
 	// so we can find m1.xml
@@ -365,22 +361,24 @@ int main(void)
 	mac_roms_build_paths();
 
 	// Open window. If it fails an error will have been shown already.
-	if (!window_open())
-		return -1;
+	//if (!window_open())
+	//	return -1;
 	
 	// Tell the core we want it to actually generate some audio...
 	m1sdr_InstallGenerationCallback();
 	
 	// Run the application event loop
 	InstallApplicationEventHandler(NewEventHandlerUPP(mac_events_handler), SUPPORTED_EVENTS, events_supported, 0, &dispatcher_ref);
-	RunApplicationEventLoop();
+    // TODO: Since RunApplicationEventLoop is deprecated, we should probably just spin up a socket or some sort of web API here so that
+    // any frontend can communicate with the emulator
+	//RunApplicationEventLoop();
 
 	// Stop the sound driver
 	m1sdr_PlayStop();
 	m1sdr_RemoveGenerationCallback();
 	
 	// Shut down the window
-	window_close();
+	//window_close();
 	
 	// Close units
 	mac_roms_close();

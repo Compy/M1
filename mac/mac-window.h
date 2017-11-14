@@ -12,6 +12,8 @@
 
 // mac-window.h
 
+#if 0
+
 int			window_open(void);
 void		window_draw_scope(void);
 void		window_close(void);
@@ -23,3 +25,5 @@ void		window_set_driver_name(char *what);
 void		window_set_hardware_desc(char *what);
 void		window_set_rom_name(char *what);
 void		window_channel_browser_update(void);
+
+#endif

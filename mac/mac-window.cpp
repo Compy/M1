@@ -12,6 +12,8 @@
 
 // mac-window.cpp
 
+#if 0
+
 #include "m1ui.h"
 #include "m1snd.h"
 #include "wavelog.h"
@@ -1515,4 +1517,5 @@ void window_set_driver_name(char *what)		{ window_set_display_text(5, what); }
 void window_set_hardware_desc(char *what)	{ window_set_display_text(6, what); }
 void window_set_rom_name(char *what)		{ window_set_display_text(8, what); }
 
+#endif
 

@@ -28,10 +28,10 @@ int							nDSoundSegLen = 0;
 #define kMaxBuffers			120
 
 // Private globals
-static ExtSoundHeaderPtr	header = nil;
-static SndCallBackUPP		callback = nil;
-static SndCommand			playCmd, callbackCmd;
-static SndChannelPtr		channel = nil;
+//static ExtSoundHeaderPtr	header = nil;
+static SRCallBackUPP	    callback = nil;
+//static SndCommand			playCmd, callbackCmd;
+//static SndChannelPtr		channel = nil;
 static void					*buffer[kMaxBuffers], *playBuffer;
 static volatile int			buffers_used = 0, buffers_read = 0, buffers_write = 0;
 static volatile int			sdr_pause = 0;
@@ -41,7 +41,7 @@ static EventLoopTimerUPP	gPlayTimerUPP = nil;
 static EventLoopTimerRef	gPlayTimerRef = nil;
 
 // Private prototypes
-static pascal void		m1sdr_PlayCallback(SndChannelPtr chan, SndCommand *cmd);
+//static pascal void		m1sdr_PlayCallback(SndChannelPtr chan, SndCommand *cmd);
 static pascal void		m1sdr_GenerationCallback(EventLoopTimerRef timer, void *snd);
 static void				m1sdr_ClearBuffers(void);
 
@@ -52,6 +52,8 @@ static void				m1sdr_ClearBuffers(void);
 
 INT16 m1sdr_Init(int sample_rate)
 {
+    printf("[MAC-SND] m1sdr_Init\n");
+    /*
 	if (header != nil)
 	{
 		m1sdr_Exit();
@@ -86,7 +88,7 @@ INT16 m1sdr_Init(int sample_rate)
 	callbackCmd.cmd = callBackCmd;
 	callbackCmd.param1 = 0;
 	callbackCmd.param2 = 0;
-	
+	*/
 	// Successful initialisation
 	return 0;
 }
@@ -100,7 +102,7 @@ INT16 m1sdr_Init(int sample_rate)
 void m1sdr_Exit(void)
 {	
 	m1sdr_RemoveGenerationCallback();
-	
+	/*
 	if (channel != nil)
 	{
 		SndDisposeChannel(channel, true);
@@ -117,7 +119,9 @@ void m1sdr_Exit(void)
 	{
 		DisposePtr((Ptr)header);
 		header = nil;
-	}	
+	}
+     */
+    printf("m1sdr_Exit\n");
 }
 
 
@@ -125,7 +129,7 @@ void m1sdr_Exit(void)
 // m1sdr_PlayCallback
 // Copies pregenerated sound buffers to output device
 //
-
+/*
 static pascal void m1sdr_PlayCallback(SndChannelPtr chan, SndCommand *cmd)
 {
 	if (buffers_used > 0)
@@ -143,7 +147,7 @@ static pascal void m1sdr_PlayCallback(SndChannelPtr chan, SndCommand *cmd)
 	SndDoCommand(chan, &playCmd, true);
 	SndDoCommand(chan, &callbackCmd, true);
 }
-
+*/
 
 //
 // m1sdr_GetPlayTime
@@ -250,7 +254,7 @@ static pascal void m1sdr_GenerationCallback(EventLoopTimerRef timer, void *snd)
 	if ((TickCount() - last_draw) >= 2)
 	{
 		last_draw = TickCount();
-		window_draw_scope();
+		//window_draw_scope();
 	}
 	
 	// Buffer some more audio
@@ -316,11 +320,11 @@ void m1sdr_PlayStart(void)
 	
 	// Clear buffers
 	m1sdr_ClearBuffers();
-	header->samplePtr = (char *)playBuffer;
+	//header->samplePtr = (char *)playBuffer;
 	playtime = 0;
 
 	// Fire off a callback
-	SndDoCommand(channel, &callbackCmd, true);
+	//SndDoCommand(channel, &callbackCmd, true);
 	
 	playing = true;
 }
@@ -333,6 +337,7 @@ void m1sdr_PlayStart(void)
 
 void m1sdr_PlayStop(void)
 {
+    /*
 	SndCommand cmd;
 	
 	// Stop playing
@@ -345,6 +350,7 @@ void m1sdr_PlayStop(void)
 	SndDoImmediate(channel, &cmd);
 	cmd.cmd = flushCmd;
 	SndDoImmediate(channel, &cmd);
+   */
 }
 
 
@@ -397,8 +403,8 @@ void m1sdr_SetSamplesPerTick(UINT32 spf)
 	
 	memset(playBuffer, 0, nDSoundSegLen * 2 * sizeof(UINT16));
 
-	header->samplePtr = (char *)playBuffer;
-	header->numFrames = nDSoundSegLen;
+	//header->samplePtr = (char *)playBuffer;
+	//header->numFrames = nDSoundSegLen;
 }
 
 

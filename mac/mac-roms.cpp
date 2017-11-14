@@ -18,8 +18,6 @@
 #include "mac-m1.h"
 #include "mac-roms.h"
 
-#include "MoreFilesX.h"
-
 // Exported globals
 rompath		*path_roms = nil, *path_pars = nil;
 
@@ -37,10 +35,11 @@ static pascal Boolean mac_roms_directory_iterator(Boolean containerChanged, Item
 	int			i;
 	CFStringRef	cfs;
 	FSRef		ref;
+    CFDataRef   dataRef;
 	
 	// Make local copy
 	memcpy(&ref, in_ref, sizeof(FSRef));
-	
+    
 	// If this is an alias, then resolve it
 	is_folder = false;
 	err = FSResolveAliasFile(&ref, true, &is_folder, &b);
@@ -48,7 +47,7 @@ static pascal Boolean mac_roms_directory_iterator(Boolean containerChanged, Item
 	// If we're a folder, then iterate into that
 	if ((err == noErr) && is_folder)
 	{
-		FSIterateContainer(&ref, 0, NULL, false, true, mac_roms_directory_iterator, NULL);
+		//FSIterateContainer(&ref, 0, NULL, false, true, mac_roms_directory_iterator, NULL);
 		return false;
 	}
 
@@ -152,6 +151,7 @@ void mac_roms_build_paths(void)
 	err = FSResolveAliasFile(&ref, true, &is_folder, &b);
 	if ((err == noErr) && (is_folder))
 	{
+        /*
 		DialogRef	bozo;
 		
 		bozo = GetNewDialog(130, nil, (WindowPtr)-1L);
@@ -163,13 +163,18 @@ void mac_roms_build_paths(void)
 		SetPortDialogPort(bozo);
 		DrawDialog(bozo);
 		QDFlushPortBuffer(GetWindowPort(GetDialogWindow(bozo)), NULL);
+         */
+        printf("Show dialog resource 130\n");
 		
 		// Iterate
-		FSIterateContainer(&ref, 0, NULL, false, true, mac_roms_directory_iterator, NULL);
+		//FSIterateContainer(&ref, 0, NULL, false, true, mac_roms_directory_iterator, NULL);
 
 		// Get rid of the dialog
+        /*
 		HideWindow(GetDialogWindow(bozo));
 		DisposeDialog(bozo);
+         */
+        printf("Dispose dialog 130\n");
 	}
 	else
 	{
